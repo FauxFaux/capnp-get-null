@@ -1,0 +1,15 @@
+[package]
+authors = ["Chris West (Faux) <git@goeswhere.com>"]
+name = "capnp-get-null"
+version = "0.1.0"
+
+[dependencies]
+capnp = "0.8.11"
+
+[build-dependencies]
+capnpc = "0.8.7"
+
+[profile.release]
+#lto = true
+debug = true
+
